@@ -4,6 +4,8 @@ import { Benefit } from "./components/Benefit";
 import {Rating} from "./components/Rating";
 import {Dashboards} from "./components/Dashboards";
 import {Feature} from "./components/Feature";
+import { Overview } from "./components/Overview";
+import {Explore} from "./components/Explore";
 import './App.css';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
   <Rating></Rating>
   <Dashboards></Dashboards>
   <Feature></Feature>
+  <Overview></Overview>
+  <Explore></Explore>
     </div>
   );
 }
