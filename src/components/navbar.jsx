@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div class="navbar-2">
                 <div>
                     <Menu isLazy>
-                        <MenuButton>PRODUCT</MenuButton>
+                        <MenuButton className="navbar-prod">PRODUCT</MenuButton>
                         <MenuList>
                             <MenuItem>OVERVIEW</MenuItem>
                             <MenuItem>DATA CONNECTORS</MenuItem>

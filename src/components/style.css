@@ -1,7 +1,6 @@
 .navbar-main{
  display: flex;
  justify-content:space-between;
- border:1px solid black;
  padding:15px 50px 15px 50px;
 }
 .navbar-2{
@@ -23,4 +22,130 @@
     width:120px;
     height:33px;
     padding-top:7px;
+}
+.banner-content{
+    position:absolute;
+    bottom:10px;
+    left:16px;
+    width: 50%;
+    height:100%;
+    margin-left: -17px;
+    margin-bottom: -10px;
+    text-align: left;
+}
+.banner-main{
+    position: relative;
+    text-align: center;
+    color:rgb(228, 225, 225);
+}
+.banner-head{
+    font-size:30px;
+    width:70%;
+    margin-left:60px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.banner-para{
+    font-size:25px;
+    margin-bottom: 40px;
+    width:90%;
+    margin-left:60px;
+}
+.banner-btn{
+    font-size:22px;
+    padding:15px 15px 15px 15px;
+    width:270px;
+
+}
+.green{
+    background-color:rgb(148,198,62);
+    margin-right:20px;
+    margin-left:60px;
+}
+.grey{
+    background-color:rgb(82,92,105)
+}
+.benefit-card{
+    width:250px;
+    height: 250px;
+    background-color:rgb(238,241,245);
+    padding:20px;
+}
+.benefit-img{
+    margin:auto;
+}
+.benefit-head{
+    font-weight:600;
+    color:rgb(64, 65, 65);
+    margin:15px 0px 15px 0px;
+}
+.benefit-div{
+    display: flex;
+    justify-content: space-between;
+    width:85%;
+    margin:auto;
+}
+.benefit-mainhead{
+    font-size: 34px;
+    margin:40px 0px 40px 0px;
+    color:rgb(101,102,102)
+}
+.rating-para{
+   width:250px;
+   height:280px;
+    background: #E0E0E0;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    text-align:center;
+    padding-top:45px;
+    
+}
+.rating-img{
+    object-fit: cover;
+    object-position: center;
+    margin-bottom:-46px; 
+    margin-left:calc(215px - 156px);
+}
+.rating-div{
+    top: 30%;
+    transform:translate(0, 30%);
+}
+.rating-p1{
+    font-weight: 600;
+    font-size:18px;
+    margin-top:10px
+}
+.rating-p3{
+    color:rgb(101,102,102);
+    font-size:18px;
+    margin:0px 0px 15px 0px;
+
+}
+.rating-p2{
+    text-align:left;
+    padding:10px;
+}
+.rating-lap{
+position:absolute
+}
+.rating-video{
+    position: relative;
+    left:90px;
+    top:50px;
+}
+.rating-main{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 100px 20px 100px
+}
+.rating-star{
+    display:flex;
+    margin-bottom: 20px;
+}
+.rating-star-img{
+    margin-right: 20px;
+}
+.rating-roundbg{
+    background-color: rgb(91, 149, 129);
+    height:400px;
 }
