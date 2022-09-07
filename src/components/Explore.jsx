@@ -1,6 +1,7 @@
+import "./style.css"
 export const Explore=()=>{
     return(
-        <div>
+        <div className="explore">
         <div className="explore-main">
             <img src="https://www.datapine.com/images/demo-request-image.png" alt="" />
             <div className="explore-div">

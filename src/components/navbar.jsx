@@ -5,7 +5,7 @@ export const Navbar = () => {
         <div className="navbar-main">
             <img className="nav-logo" src="https://www.datapine.com/images/logo-bl.png" alt="datapine-logo" />
             <div class="navbar-2">
-                <div>
+                <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton className="navbar-prod">PRODUCT</MenuButton>
                         <MenuList>
@@ -21,7 +21,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <div>
+                <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton>SOLUTIONS</MenuButton>
                         <MenuList>
@@ -39,7 +39,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <div>
+                <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton>SERVICES</MenuButton>
                         <MenuList>
@@ -49,7 +49,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <div>
+                <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton>LEARN</MenuButton>
                         <MenuList>
@@ -63,7 +63,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <div>
+                <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton>COMPANY</MenuButton>
                         <MenuList>
@@ -77,7 +77,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <div>
+                <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton>EN</MenuButton>
                         <MenuList>

@@ -1,3 +1,4 @@
+import "./style.css"
 export const Overview=()=>{
     return(
         <div className="over-main">
