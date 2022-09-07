@@ -4,7 +4,7 @@ export const Navbar = () => {
     return (
         <div className="navbar-main">
             <img className="nav-logo" src="https://www.datapine.com/images/logo-bl.png" alt="datapine-logo" />
-            <div class="navbar-2">
+            <div className="navbar-2">
                 <div className="navbar-menu">
                     <Menu isLazy>
                         <MenuButton className="navbar-prod">PRODUCT</MenuButton>
@@ -85,7 +85,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <button class="nav-btn">LOGIN</button>
+                <button className="nav-btn">LOGIN</button>
             </div>
         </div>
     )

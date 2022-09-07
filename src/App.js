@@ -11,6 +11,7 @@ import {Blog} from "./components/Blog";
 import {Footer} from "./components/Footer";
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -18,13 +19,14 @@ function App() {
   <Banner></Banner>
   <Benefit></Benefit>
   <Rating></Rating>
-  <Dashboards></Dashboards>
+  <Dashboards></Dashboards> 
   <Feature></Feature>
   <Overview></Overview>
   <Explore></Explore>
   <People></People>
   <Blog></Blog>
   <Footer></Footer>
+ 
     </div>
   );
 }

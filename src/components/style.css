@@ -203,9 +203,15 @@ font-size:35px;
     height:58px;
     font-size:25px;
 }
+.dash-dash{
+    box-shadow: rgba(42, 42, 42, 0.248) 0px 6px 6px 0px;
+    padding-bottom: 30px;
+}
 .dash-head{
     font-size:30px;
     color:rgb(101,102,102);
+    margin-top:40px;
+    margin-bottom:40px;
 }
 .dash-cat{
     display:flex;
@@ -217,9 +223,8 @@ font-size:35px;
     padding:10px;
 }
 .dash-content{
-    height:300px;
-    border: 1px solid red;
-    box-shadow: rgba(42, 42, 42, 0.248) 0px 6px 6px 0px;
+    width: 70%;
+    margin:auto;
 }
 .dash-btn{
     color:white;
@@ -517,4 +522,41 @@ font-size:35px;
     line-height: 25px;
     width:190px;
     font-size: 18px;
+}
+.all-img{
+    width:250px;
+    height:150px;
+}
+.platform,.func,.industry{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    text-align:left;
+    margin:auto;
+    
+}
+.all-flex{
+    display:flex;
+    color:rgb(148,198,62)
+}
+.all-head{
+    font-size:20px;
+    font-weight:bold;
+}
+.all-icon{
+    margin-top:8px;
+}
+.nil{
+    display:none;
+}
+.underline{
+    text-decoration: underline;
+    z-index: 1;
+}
+.none{
+    text-decoration: none;
+    z-index: 1;
+}
+.priority{
+    z-index: 1;
 }
