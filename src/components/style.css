@@ -228,3 +228,43 @@ font-size:35px;
     padding-top:100px;
     padding-bottom: 100px;
 }
+.feature-box{
+    width: 200px;
+    text-align:center;
+    background-color:whitesmoke
+}
+.feature-img{
+    margin:auto;
+}
+.feature-div{
+    display:flex;
+    width:85%;
+    justify-content: space-between;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.feature-head{
+    font-size:25px;
+    font-weight:bold;
+    background-color:rgb(58,65,80);
+    color:white;
+    padding:0px 10px 0px 10px ;
+}
+.feature-img{
+    width:100px;
+    height:90px;
+}
+.feature-heading{
+    font-size:30px;
+}
+.feature-p{
+    width:85%;
+    height:100px;
+    margin:auto;
+    padding:10px;
+}
+.feature-main{
+    box-shadow: rgba(0, 0, 0, 0.248) 0px 6px 6px 0px;
+    padding-bottom: 30px;
+}
