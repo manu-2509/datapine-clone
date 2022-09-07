@@ -201,7 +201,30 @@ font-size:35px;
 .dash-cat{
     display:flex;
     font-size:25px;
-    border-top:1px solid black;
     width: 70%;
     justify-content: space-between;
+    margin:auto;
+    background-color:whitesmoke;
+    padding:10px;
+}
+.dash-content{
+    height:300px;
+    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.248) 0px 6px 6px 0px;
+}
+.dash-btn{
+    color:white;
+    background-color:rgb(148,198,62);
+    padding:10px;
+    width: 300px;
+    height:58px;
+    font-size:25px;
+}
+.dash-headlower{
+    font-size:30px;
+}
+.dash-lower{
+    box-shadow: rgba(0, 0, 0, 0.248) 0px 6px 6px 0px;
+    padding-top:100px;
+    padding-bottom: 100px;
 }

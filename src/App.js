@@ -3,6 +3,7 @@ import { Banner } from "./components/Banner";
 import { Benefit } from "./components/Benefit";
 import {Rating} from "./components/Rating";
 import {Dashboards} from "./components/Dashboards";
+import {Feature} from "./components/Feature";
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   <Benefit></Benefit>
   <Rating></Rating>
   <Dashboards></Dashboards>
+  <Feature></Feature>
     </div>
   );
 }
