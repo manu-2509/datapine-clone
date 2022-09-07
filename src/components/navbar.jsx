@@ -1,9 +1,10 @@
 import { Menu,MenuButton,MenuList,MenuItem } from "@chakra-ui/react"
+import "./style.css"
 export const Navbar = () => {
     return (
-        <div>
-            <img src="https://www.datapine.com/images/logo-bl.png" alt="datapine-logo" />
-            <div>
+        <div className="navbar-main">
+            <img className="nav-logo" src="https://www.datapine.com/images/logo-bl.png" alt="datapine-logo" />
+            <div class="navbar-2">
                 <div>
                     <Menu isLazy>
                         <MenuButton>PRODUCT</MenuButton>
@@ -84,7 +85,7 @@ export const Navbar = () => {
                         </MenuList>
                     </Menu>
                 </div>
-                <button>Login</button>
+                <button class="nav-btn">LOGIN</button>
             </div>
         </div>
     )

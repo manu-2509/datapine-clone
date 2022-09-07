@@ -1,0 +1,26 @@
+.navbar-main{
+ display: flex;
+ justify-content:space-between;
+ border:1px solid black;
+ padding:15px 50px 15px 50px;
+}
+.navbar-2{
+    display:flex;
+    width:50%;
+    font-size :18px;
+    color:GREY;
+    justify-content:space-between;
+    padding-top:5px;
+
+}
+.nav-btn{
+    color:white;
+    background-color:rgb(148,198,62);
+    padding:5px 10px 5px 10px;
+    margin-top:-5px
+}
+.nav-logo{
+    width:120px;
+    height:33px;
+    padding-top:7px;
+}
